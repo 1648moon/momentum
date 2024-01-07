@@ -1,0 +1,70 @@
+.hidden {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+#clock {
+    position: relative;
+    top: 20px;
+    font-size: 100px;
+   
+}
+
+#login-form {
+    font-size: 30px;
+    top: -30px;
+    padding: 10px;
+}
+
+#login-form input {
+    border: 1px solid white;
+    border-radius:10px;
+    margin : 10px;
+    height: 30px;
+}
+
+#login-form h3 {
+    font-size: 20px;
+}
+
+
+
+#greeting {
+    font-size: 50px;
+    font-style: italic;
+    top: 50px;
+}
+
+#todo-form input {
+    width: 250px;
+    padding:10px;
+    border: 1px solid white;
+    border-radius:10px;
+    font-size: 18px;
+}
+
+#todo-list span{
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+#weather {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+#quote {
+    position: fixed;
+    bottom: 20px;
+}
