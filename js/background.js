@@ -5,9 +5,6 @@ const images = [
     "3.JPG",
     "4.JPG",
     "5.JPG",
-    "6.JPG",
-    "7.JPG",
-    "8.JPG",
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
