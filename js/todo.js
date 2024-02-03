@@ -24,7 +24,7 @@ function paintToDo(newTodo) {
     const span = document.createElement("span");
     span.innerText = newTodo.text;
     const button = document.createElement("button");
-    button.innerText = " ❌"
+    button.innerText = "❌"
     button.addEventListener("click", deleteTodo);
     li.appendChild(span); // span을 li 안에 자식으로 넣기 
     li.appendChild(button);
