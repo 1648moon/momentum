@@ -1,5 +1,4 @@
-My Own Momtentum
-https://1648moon.github.io/momentum/
+# My Own Momtentum
 
 <img src="img/screenshot.png">
 
